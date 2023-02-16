@@ -18,7 +18,7 @@ public class Consoantes {
                 System.out.println("Letra: ");
                 String letra = scan.next();
     
-                if ( !(letra.equalsIgnoreCase("a") |
+                if (  !(letra.equalsIgnoreCase("a") |
                         letra.equalsIgnoreCase("e") |
                         letra.equalsIgnoreCase("i") |
                         letra.equalsIgnoreCase("o") |
