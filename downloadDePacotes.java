@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 /*
 Desafio
@@ -8,6 +9,7 @@ a empresa optou por fazer uma escala de 10 – 1. Então a escala será
 1 = 10%, 2 = 20%, 3 = 30% e etc.
 Para cada 10% de download, o programa deve printar, em sequência e sem espaços, 
 uma barra “/”.
+Crie a condição necessária para que, de acordo com o tamanho, seja printado no console barras representando o download
 
 Entrada
 A entrada será um número que representará a porcentagem
@@ -21,6 +23,18 @@ Entrada	Saída
     3	          ///
     7	        /////// 
  */
+
 public class downloadDePacotes {
-    
+    public static void main(String[] args) {
+        Scanner leitor = new Scanner(System.in);
+        
+        int tamanho = leitor.nextInt();
+        
+        for (int i = 0; i < tamanho; i++) {
+            System.out.print("/");
+        }
+        
+        leitor.close();
+    }
 }
+
