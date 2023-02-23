@@ -1,2 +1,2 @@
 # Orangetech-Java-Exercises
-Exercícios Java
+* Exercícios de fixação em Java do curso da Dio - Orangetech + Back-end.
