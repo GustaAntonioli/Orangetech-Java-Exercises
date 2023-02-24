@@ -6,7 +6,7 @@ public class nomeIdade2 {
         Scanner scan = new Scanner(System.in);
         
         String nome;
-        int idade;
+        //int idade; Descomentar para usar o código.
 
         while(true) {
             System.out.println("Nome: ");
@@ -14,10 +14,11 @@ public class nomeIdade2 {
             if (nome.equals("0")) break;
 
             System.out.println("idade: ");
-            idade = scan.nextInt();
+          //  idade = scan.nextInt(); Descomentar para usar o código.
         }
         
         System.out.println("continue aqui...");
+        scan.close();
     }
 }
 
